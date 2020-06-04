@@ -20,3 +20,11 @@ logoRotation.addEventListener('mouseover',function(event){
 })
 
 //next event
+//changes background color when double clicked
+const colorChange=document.querySelector('body')
+
+colorChange.addEventListener('dblclick',function(event){
+    event.target.style.background='limegreen'
+})
+
+//next event
